@@ -1,0 +1,19 @@
+package com.anudip.basics;
+
+public class Example {
+
+	//main method-used to run the java program
+	public static void main(String[] args) {
+		
+		/*System.out.println("stmt 1");
+		System.out.println("stmt 2");
+		System.out.println("stmt 3");
+		System.out.println("stmt 4");
+		System.out.println("stmt 5");
+		*/
+		
+		
+		//child age
+		int age = 10;
+	}
+}
