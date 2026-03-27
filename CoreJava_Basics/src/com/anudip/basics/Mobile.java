@@ -3,6 +3,12 @@ package com.anudip.basics;
 public class Mobile {
 
 	
+	@Override
+	public String toString() {
+		return "Mobile [color=" + color + ", modelName=" + modelName + ", prize=" + prize + ", compName=" + compName
+				+ "]";
+	}
+
 	String color;
 	String modelName;
 	double prize;
@@ -32,9 +38,5 @@ public class Mobile {
 		
 	}
 
-	@Override
-	public String toString() {
-		return "Mobile [color=" + color + ", modelName=" + modelName + ", prize=" + prize + ", compName=" + compName
-				+ "]";
-	}
+	
 }
