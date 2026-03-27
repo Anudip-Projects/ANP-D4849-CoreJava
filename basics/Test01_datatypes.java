@@ -31,8 +31,10 @@ public class Test01_datatypes {
 		//named memory loc..which is used to store some
 		//value
 		
-		int val = 100;
-		
+		int val = 100;		
+		float f = 4.5f;	
+		boolean b23 = true;
+		char ch = 'm';
 		
 	}
 }
