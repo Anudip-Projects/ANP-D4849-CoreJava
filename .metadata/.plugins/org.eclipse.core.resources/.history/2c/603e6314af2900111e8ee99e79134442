@@ -1,0 +1,54 @@
+package com.anudip.opearators;
+
+public class Test01 {
+
+
+	public static void main(String[] args) {
+
+		//Unary Operator ++   --
+		//increment op
+		//preIncre ++and postIncre
+
+		int a = 10;
+		System.out.println(a);
+		++a;  //1 + 10 => 11
+		System.out.println("preINcre:: " +a);  //11
+		a++;  //11+1 => 12
+		System.out.println("postINcre::" +a);
+
+		//int p = 100;
+		//System.out.println(++p);  //1 + 100 => 101
+		//System.out.println(p++);  //1 + 100 => 101
+		//System.out.println(p);
+
+
+		//decrement
+		//predecre and postdecre
+
+
+		//Arithmetic Operator, + - * / %
+		int p = 10;
+		int q = 10;
+		System.out.println("Addition ::" +(p+q));
+		System.out.println("sub ::" +(p-q));
+		System.out.println("mul ::" +(p-q));
+		System.out.println("div ::" +(p/q)); //quotient
+		System.out.println("Modulus ::" +(p%q));  //reminder
+
+		
+		//Relational Operator=> > < >= <= == =!
+		
+		int no1 = 50;
+		int no2 = 60;
+		
+		if(no1>no2) {
+			System.out.println("stmt1");
+		}
+
+		if(no1<no2) {
+			System.out.println("stmt2");
+		}
+		
+		
+	}
+}

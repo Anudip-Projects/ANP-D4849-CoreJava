@@ -1,0 +1,13 @@
+package com.anudip.basics;
+
+public class Example {
+
+	public static void main(String[] args) {
+		
+		System.out.println("stmt 1");
+		System.out.println("stmt 2");
+		System.out.println("stmt 3");
+		System.out.println("stmt 4");
+		System.out.println("stmt 5");
+	}
+}

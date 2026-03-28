@@ -1,0 +1,37 @@
+package com.anudip.basics;
+
+public class Mobile {
+
+	
+	String color;
+	String modelName;
+	double prize;
+	String compName;
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		Mobile mob1 = new Mobile();
+		
+		
+		mob1.color = "blue";
+		mob1.modelName = "xyz-pro";
+		mob1.prize = 10.000;
+		mob1.compName = "Oppo";
+		System.out.println(mob1);
+		
+		Mobile mob2 = new Mobile();
+		System.out.println(mob2);
+		
+		Mobile mob3 = new Mobile();
+		Mobile mob4 = new Mobile();
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Mobile [color=" + color + ", modelName=" + modelName + ", prize=" + prize + ", compName=" + compName
+				+ "]";
+	}
+}

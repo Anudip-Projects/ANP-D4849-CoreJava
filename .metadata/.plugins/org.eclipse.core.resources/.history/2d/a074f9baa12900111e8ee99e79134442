@@ -1,0 +1,12 @@
+package com.anudip.basics;
+
+public class Test01_datatypes {
+
+	public static void main(String[] args) {
+		
+		System.out.print("stm1");
+		System.out.println("stmt2");
+	}
+}
+
+

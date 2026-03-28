@@ -1,0 +1,25 @@
+package com.anudip.decisionmaking;
+
+public class Test03_switch {
+
+	public static void main(String[] args) {
+
+		int choice = 1;
+
+		switch(choice) {
+		case 1 :
+			System.out.println("you have entered 1");
+			break;
+
+		case 2:
+			System.out.println("you have entered 1");
+			break;
+
+		case 2:
+			System.out.println("you have entered 1");
+			break;
+
+		}
+	}
+
+}

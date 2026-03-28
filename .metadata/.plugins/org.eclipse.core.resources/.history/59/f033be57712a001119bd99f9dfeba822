@@ -1,0 +1,13 @@
+package com.anudip.loops;
+
+public class Test01_forLoop {
+
+	public static void main(String[] args) {
+		
+		
+		for(int i = 0 ; i<=10 ; i++) {  //11<=10
+			System.out.println("i value ::" +i);
+		}
+		System.out.println("outside the loop");
+	}
+}

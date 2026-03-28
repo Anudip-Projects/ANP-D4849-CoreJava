@@ -1,0 +1,19 @@
+package com.anudip.basics;
+
+public class Mobile {
+
+	String color;
+	String modelName;
+	double prize;
+	String compName;
+
+	public static void main(String[] args) {
+
+		Mobile mob1 = new Mobile();
+		Mobile mob1 = new Mobile();
+		Mobile mob1 = new Mobile();
+		Mobile mob1 = new Mobile();
+		
+		
+	}
+}
