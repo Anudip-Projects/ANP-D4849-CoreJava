@@ -1,0 +1,13 @@
+package p1;
+
+public class B {
+
+public static void main(String[] args) {
+		
+		A a = new A();
+		System.out.println("a value :: " +a.a); //within class anywhere u can access
+		System.out.println("b value :: " +a.b);
+		System.out.println("c value :: " +a.c);
+		System.out.println("d value :: " +a.d);
+	}
+}

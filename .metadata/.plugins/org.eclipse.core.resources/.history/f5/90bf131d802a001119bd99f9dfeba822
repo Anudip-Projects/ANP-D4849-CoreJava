@@ -1,0 +1,22 @@
+package com.anudip.method;
+
+public class Test01 {
+
+	//static method
+	//non static method
+	
+	//predefined method-JVM allready defined-
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	//user defined method
+	public void static m1(){
+		System.out.println("static method");
+	}
+	
+	public void m2() {
+		System.out.println("non static method");
+	}
+}

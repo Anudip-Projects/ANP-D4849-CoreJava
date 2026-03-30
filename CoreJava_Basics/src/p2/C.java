@@ -1,0 +1,27 @@
+package p2;
+
+import p1.A;
+import p1.B;
+
+public class C extends A {
+
+	//code -> proper indentation-> ctr + a
+	//ctrl + i
+	public static void main(String[] args) {
+
+		A a = new A();
+		//System.out.println("a value :: " +a.a); //within class anywhere u can access
+		//System.out.println("b value :: " +a.b);
+		//default :: you can access the default member only inside a package
+		
+		//protected -> you can access protec var inside class
+		//outside the class and outside the package as well but the only 
+		//condition is that by using subclass object
+	
+		C c = new C();
+		//System.out.println("c value :: " +a.c);
+		System.out.println("c value :: " +c.c);
+		System.out.println("d value :: " +a.d);
+	}
+}
+

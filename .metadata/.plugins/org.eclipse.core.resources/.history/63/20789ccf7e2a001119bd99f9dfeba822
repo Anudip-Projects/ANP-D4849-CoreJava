@@ -1,0 +1,8 @@
+package com.anudip.variable;
+
+public class Tets02 {
+
+	public static void main(String[] args) {
+		System.out.println();
+	}
+}

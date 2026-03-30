@@ -1,0 +1,19 @@
+package p2;
+
+import p1.A;
+
+public class C {
+
+	//code -> proper indentation-> ctr + a
+	//ctrl + i
+	public static void main(String[] args) {
+
+		A a = new A();
+		//System.out.println("a value :: " +a.a); //within class anywhere u can access
+		//System.out.println("b value :: " +a.b);
+		//default :: you can access the default member only inside a package
+		System.out.println("c value :: " +a.c);
+		System.out.println("d value :: " +a.d);
+	}
+}
+

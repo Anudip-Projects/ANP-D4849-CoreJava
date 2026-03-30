@@ -1,0 +1,19 @@
+package com.anudip.modifiers;
+
+public class A {
+
+	//what is modifer
+	//modifier are the kw whcih used to modify the default behaviour of PE
+	//Accessibility Modifier
+	
+	public static void main(String[] args) {
+		
+		//var intia
+		int a = 10;
+		//re-inti
+		a = 50;		
+		System.out.println(a);
+		
+	}
+	
+}
