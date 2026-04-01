@@ -1,0 +1,15 @@
+package com.anudip.inheri.hasA;
+
+public class Person {
+
+	
+	//setter and getter
+	//tostring
+	//param constru
+	//non param
+	
+	
+	String name;
+	int age;
+	
+}

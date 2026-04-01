@@ -1,0 +1,29 @@
+package com.anudip.inheri.hasA;
+
+public class Student extends Person {
+
+	int sid;
+	
+	//HAS-A Relataion or Composition
+	Address addrs;
+
+	public Student(String name, int age, int sid, Address addrs) {
+		super(name, age);
+		this.sid = sid;
+		this.addrs = addrs;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [sid=" + sid + ", addrs=" + addrs + ", name=" + name + ", age=" + age + "]";
+	}
+	
+	void goingToCollege(Bike bike) {
+		
+	}
+
+	
+	
+	
+	
+}

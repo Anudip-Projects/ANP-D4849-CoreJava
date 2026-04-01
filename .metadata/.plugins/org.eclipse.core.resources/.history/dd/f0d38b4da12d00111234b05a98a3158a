@@ -1,0 +1,7 @@
+package com.anudip.inheri.hasA;
+
+public class Person {
+
+	String name;
+	int age;
+}

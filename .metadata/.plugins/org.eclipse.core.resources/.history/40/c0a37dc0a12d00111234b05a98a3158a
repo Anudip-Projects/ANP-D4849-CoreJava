@@ -1,0 +1,24 @@
+package com.anudip.inheri.hasA;
+
+public class Student extends Person {
+
+	int sid;
+
+	public Student(String name, int age, int sid) {
+		super(name, age);
+		this.sid = sid;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [sid=" + sid + "]";
+	}
+
+	public int getSid() {
+		return sid;
+	}
+
+	public void setSid(int sid) {
+		this.sid = sid;
+	}
+}

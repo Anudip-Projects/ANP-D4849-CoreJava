@@ -1,0 +1,6 @@
+package com.anudip.inheri.hasA;
+
+public class Employee extends Person{
+ int eid;
+	
+}

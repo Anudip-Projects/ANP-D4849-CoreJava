@@ -1,0 +1,7 @@
+package com.anudip.inheri.hasA;
+
+public class Bike {
+
+	String bikeColor;
+	String bikeName; 
+}

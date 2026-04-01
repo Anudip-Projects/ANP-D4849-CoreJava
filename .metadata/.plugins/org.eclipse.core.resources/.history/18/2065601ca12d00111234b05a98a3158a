@@ -1,0 +1,6 @@
+package com.anudip.inheri.hasA;
+
+public class Student {
+
+	ingt sid;
+}

@@ -1,0 +1,27 @@
+package com.anudip.inheri;
+
+public class Example extends Sample{
+
+	static int x = 100;
+	int y = 200;
+
+	static void m1() {
+		System.out.println("static m1 from Ex");
+	}
+
+	void m2() {
+		System.out.println("non static  m2 from Ex");
+	}
+	public static void main(String[] args) {
+
+		System.out.println(x);  //100
+		System.out.println(Sample.x);  //10
+
+		m1();
+		Sample.m1();
+		System.out.println("=++++++++++++++++++++++++++++++");
+		Example e1 = new Example();
+		System.out.println(e1.y);  //20 or  200
+		e1.m2();   //ex or sample
+	}
+}

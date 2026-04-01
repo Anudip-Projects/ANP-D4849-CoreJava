@@ -1,0 +1,8 @@
+package com.anudip.construct;
+
+public class Test02 {
+
+	public Test02() {
+		System.out.println("test01-non param const");
+	}
+}

@@ -1,0 +1,25 @@
+package com.anudip.poly;
+
+public class Example extends Sample {
+
+//	void m1() {
+//		System.out.println("non static m1 in example ");
+//	}
+	
+	
+	public static void main(String[] args) {
+		
+		Example e1 = new Example();
+		e1.m1();
+		
+		Sample s2 = new Sample();
+		s2.m1();
+		
+		Sample s1 = new Example();
+		s1.m1();
+		
+		
+		
+	}
+
+}

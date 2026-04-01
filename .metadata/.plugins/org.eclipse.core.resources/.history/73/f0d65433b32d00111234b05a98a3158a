@@ -1,0 +1,14 @@
+package com.anudip.poly;
+
+public class B extends A{
+
+	static void add(int a, int b, int c) {
+		System.out.println("addition  B::" +(a+b+c));
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+	}
+}

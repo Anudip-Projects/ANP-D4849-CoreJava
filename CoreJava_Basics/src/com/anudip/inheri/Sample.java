@@ -1,0 +1,15 @@
+package com.anudip.inheri;
+
+public class Sample {
+
+	static int x = 10;
+	int y  = 20;
+	
+	static void m1() {
+		System.out.println("static mtheod m1 of Sample class");
+	}
+	
+	void m2() {
+		System.out.println("NOn static mtheod m2 of Sample class");
+	}
+}

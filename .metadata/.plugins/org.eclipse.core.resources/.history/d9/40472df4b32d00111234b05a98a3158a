@@ -1,0 +1,10 @@
+package com.anudip.poly;
+
+public class Example {
+
+	void m1() {
+
+		System.out.println("non static m1 in Sample ");
+	}
+
+}

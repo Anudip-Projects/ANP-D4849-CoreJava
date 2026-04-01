@@ -1,0 +1,25 @@
+package com.anudip.inheri;
+
+public class C extends B{
+
+	public C() {
+		super();
+		System.out.println("C class constr");
+	}
+
+	int x = 500;
+	static int y = 1;
+	public static void main(String[] args) {
+
+		C c  = new C();
+
+		System.out.println(c.x);
+		System.out.println(y);
+
+	}
+
+	static void m1() {
+		System.out.println("m1 ::"y);
+	}
+
+}

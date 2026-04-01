@@ -1,0 +1,9 @@
+package com.anudip.inheri.hasA;
+
+public class Address {
+
+	String state;
+	String zipCode;
+	String cityname;
+	
+}

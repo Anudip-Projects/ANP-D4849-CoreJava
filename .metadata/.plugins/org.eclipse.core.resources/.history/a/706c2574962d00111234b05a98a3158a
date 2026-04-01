@@ -1,0 +1,20 @@
+package com.anudip.inheri;
+
+public class Example extends Sample{
+
+	static int x = 100;
+	int y = 200;
+	public static void main(String[] args) {
+
+		System.out.println(x);  //10 or 100
+		System.out.println(Sample.x);  //10 or 100
+
+		m1();
+		Sample.m1();
+
+		Example e1 = new Example();
+		System.out.println(e1.y);  //20  or 200
+
+		e1.m2();
+	}
+}

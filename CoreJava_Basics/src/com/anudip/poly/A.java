@@ -1,0 +1,18 @@
+package com.anudip.poly;
+
+public class A {
+
+	//defining multiple method with same name but diff param list/order..or type
+	//withine class
+	//method overloading
+	static void add(int a, int b) {
+		System.out.println("addition ::" +(a+b));
+	}
+	
+	
+	static void add(int a, int b, int c) {
+		System.out.println("addition ::" +(a+b+c));
+	}
+	
+	
+}

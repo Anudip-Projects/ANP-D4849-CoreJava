@@ -1,0 +1,7 @@
+package com.anudip.encapsu;
+
+public class Bank {
+
+	private double balance;
+	
+}

@@ -1,0 +1,13 @@
+package com.anudip.encapsu;
+
+public class HdfcBank {
+
+	public static void main(String[] args) {
+		Bank bank  = new Bank();
+		bank.setBalance(-1000.0);
+		
+	double balance = bank.getBalance();
+	System.out.println(balance);
+	}
+
+}
