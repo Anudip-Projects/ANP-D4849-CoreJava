@@ -1,0 +1,5 @@
+package com.anudip.interfaceccc;
+
+public class A implements Sample {
+
+}

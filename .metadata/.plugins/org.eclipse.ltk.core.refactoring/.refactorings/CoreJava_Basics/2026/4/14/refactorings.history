@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;VovoBus.java&apos; to &apos;CoreJava_Basics/src/com.anudip.abstarction&apos;&#x0D;&#x0A;- Original project: &apos;CoreJava_Basics&apos;&#x0D;&#x0A;- Destination element: &apos;CoreJava_Basics/src/com.anudip.abstarction&apos;&#x0D;&#x0A;- Original element: &apos;com.anudip.abstarction.VovoBus.java&apos;" description="Copy compilation unit" destination="/src&lt;com.anudip.abstarction" element1="/src&lt;com.anudip.abstarction{VovoBus.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1775112430605" units="1" version="1.0"/>
+</session>

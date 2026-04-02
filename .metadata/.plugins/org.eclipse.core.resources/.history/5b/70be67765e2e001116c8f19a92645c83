@@ -1,0 +1,10 @@
+package com.anudip.interfaceccc;
+
+public class Circle implements Shape {
+
+	@Override
+	public void findArea() {
+		System.out.println("ARea of reactangle :: "+(l*b));
+	}
+
+}

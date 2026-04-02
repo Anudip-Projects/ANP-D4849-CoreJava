@@ -1,0 +1,70 @@
+package com.anudip.arrayaa;
+
+public class Test02_copyARray {
+
+	public static void main(String[] args) {
+		
+		int arr1[] = {10, 20, 30};
+		
+		int arr2[] = new int[arr1.length];
+		
+		System.out.println("old array");
+		for(int i : arr1) {
+			System.out.println(i);
+		}
+		
+		for(int i = 0; i<arr1.length ; i++) {			
+			arr2[i] =  arr1[i];
+		}
+		System.out.println("new  array");
+		for(int i : arr2) {
+			System.out.println(i);
+		}
+		
+		
+		for(int i = arr2.length-1 ; i>0 ; i--) {
+			System.out.println(arr2[i]);
+		}
+		
+		
+		
+		System.out.println("=====find dupliate ele in array");
+		
+		int ar[] = {2,3,4,5,2,6,4};
+		int count = 0;
+		
+		for(int i = 0;  i<= ar.length-1; i++) {
+			
+			for(int j = i+1;  j<= ar.length-1; j++) {
+				if(ar[i] == ar[j]) {
+					System.out.println(ar[i]);
+					count++;						
+										
+				}
+				
+			}
+			
+		}		
+		
+		System.out.println(" total dup;iacteed no  ::" +count);
+		
+		System.out.println("========2D array=========");
+		
+		int art1[][] = {				
+				{10,20},
+				{101,201},
+				{201, 202}
+		};
+		
+		for(int i = 0 ; i<art1.length; i++) {
+			for(int j = 0 ; j<art1.length; j++) {
+				System.out.println("i and j ::" +art1[i][j]);
+			}
+		}
+		
+		String ss[][] = new String[2][3];
+		
+		
+ 		
+	}
+}

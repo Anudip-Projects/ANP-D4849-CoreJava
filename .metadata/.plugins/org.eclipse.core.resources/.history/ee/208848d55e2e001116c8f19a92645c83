@@ -1,0 +1,18 @@
+package com.anudip.interfaceccc;
+
+public class myMain {
+
+	public static void main(String[] args) {
+		
+		Rectangle rect = new Rectangle();
+		rect.findArea();
+		
+		
+		Circle cir = new Circle();
+		cir.findArea();
+		
+		//Shape s = new Shape();
+		Shape s1 = new Rectangle();
+		Shape s2 = new Circle();
+	}
+}

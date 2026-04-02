@@ -1,0 +1,11 @@
+package com.anudip.interfaceccc;
+
+public class Circle implements Shape {
+
+	@Override
+	public void findArea() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

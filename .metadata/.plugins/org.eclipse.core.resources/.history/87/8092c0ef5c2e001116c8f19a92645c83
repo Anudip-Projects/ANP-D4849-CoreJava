@@ -1,0 +1,8 @@
+package com.anudip.interfaceccc;
+
+public interface Sample {
+
+	
+	public abstract void m1();
+	void m2();
+}

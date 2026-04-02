@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.anudip.inheri.Example"/>
+    <fullyQualifiedTypeName name="com.anudip.inheri.hasA.Address"/>
+    <fullyQualifiedTypeName name="com.anudip.poly.Example"/>
+</qualifiedTypeNameHistroy>

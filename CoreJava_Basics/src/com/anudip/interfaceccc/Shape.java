@@ -1,0 +1,7 @@
+package com.anudip.interfaceccc;
+
+public interface Shape {
+
+	//circle  rect  square
+	void findArea();  //abst method
+}

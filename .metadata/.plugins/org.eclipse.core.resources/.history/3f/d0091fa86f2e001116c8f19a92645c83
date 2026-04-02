@@ -1,0 +1,15 @@
+package com.anudip.arrayaa;
+
+public class Test01_ArrayIntilizataion {
+
+	public static void main(String[] args) {
+		
+		//array declaration
+		int arr[];
+		
+		//static array
+		int arr1[] = {1,2,3};  //array size-> 2
+		int length = arr1.length;
+		System.out.println("lenth or size of array ::" +length);
+	}
+}

@@ -1,0 +1,10 @@
+package com.anudip.abstarction;
+
+public abstract class Bus {
+
+	public abstract void breakkk(){
+		System.out.println("bus has two breakkk");
+	}
+	
+	public abstract void engine();
+}

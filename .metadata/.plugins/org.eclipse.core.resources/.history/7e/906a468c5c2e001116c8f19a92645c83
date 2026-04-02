@@ -1,0 +1,5 @@
+package com.anudip.interfaceccc;
+
+public interface Sample {
+
+}

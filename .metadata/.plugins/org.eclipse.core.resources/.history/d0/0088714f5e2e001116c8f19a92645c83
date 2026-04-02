@@ -1,0 +1,14 @@
+package com.anudip.interfaceccc;
+
+public class Rectangle implements Shape {
+
+	int l;
+	int b;
+	
+	@Override
+	public void findArea() {
+		
+		
+	}
+
+}

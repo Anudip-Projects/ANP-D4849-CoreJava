@@ -1,0 +1,13 @@
+package com.anudip.interfaceccc;
+
+public class Rectangle implements Shape {
+
+	int l = 10;
+	int b = 7;
+	
+	@Override
+	public void findArea() {
+		System.out.println("ARea of reactangle :: "+(l*b));
+		}
+
+}
