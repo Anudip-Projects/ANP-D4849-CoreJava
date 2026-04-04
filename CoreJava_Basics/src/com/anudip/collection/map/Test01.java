@@ -1,0 +1,39 @@
+package com.anudip.collection.map;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Set;
+
+public class Test01 {
+
+
+	public static void main(String[] args) {
+
+		//what is map
+		//key and value data store
+
+
+		//Map<key, value>   unique -> set  dupliacste -> list
+		//HashMap
+		//LinkedHashMap
+		//TreeMap
+
+		HashMap<String, String> hm = new HashMap<String, String>();
+		hm.put("name", "raja");
+		hm.put("licen id", "ABAGG6786787");
+		hm.put("Aadhar ID", "86788879909");
+		hm.put("name1", "raja");
+		System.out.println(hm);
+
+		hm.remove("name");
+		System.out.println(hm);
+
+		Set<String> keySet = hm.keySet();
+
+		System.out.println(keySet);
+
+		Collection<String> values = hm.values();
+		System.out.println(values);
+
+	}
+}

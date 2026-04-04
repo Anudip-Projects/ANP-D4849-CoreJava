@@ -1,0 +1,28 @@
+package com.anudip.collection;
+
+import java.util.Stack;
+
+public class Test04_Stack {
+
+	public static void main(String[] args) {
+		
+		Stack<Integer> numbers = new Stack<>(); 
+		  System.out.println(numbers.empty()); //true 
+		   
+		  numbers.push(25); 
+		  numbers.push(40); 
+		  numbers.push(95); 
+		  System.out.println(numbers); //[25, 40, 95] 
+		   
+		  //retriv ethe top most elem
+		  System.out.println(numbers.peek()); //95 
+		   
+		  System.out.println(numbers.search(40)); //2 
+		  //since stack has 1-based index, 40 is at 2nd index  
+		   
+		  numbers.pop(); //removes top of stack (95 for us) 
+		  System.out.println(numbers); 
+		  System.out.println(numbers.peek()); //40 
+		  System.out.println(numbers.empty()); //false
+	}
+}

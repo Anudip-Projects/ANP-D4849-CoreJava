@@ -1,0 +1,42 @@
+package com.anudip.collection.set;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+
+public class Test01 {
+
+	//HashSet/linkedHash/TreeSet
+	public static void main(String[] args) {
+		//set does not follow the insertion order
+		//set allows only unique values
+		
+		HashSet<Integer> s = new HashSet<Integer>();
+		s.add(90);
+		s.add(10);
+		s.add(20);
+		s.add(30);
+		s.add(10);  //no
+		s.add(null);
+		s.add(null);
+		System.out.println(s);
+		
+		
+		System.out.println("+++++++++++++++++++LInkedHshSet+++++++++++++");
+		LinkedHashSet<Integer> lhs = new LinkedHashSet<Integer>();
+		lhs.add(90);
+		lhs.add(10);
+		lhs.add(20);
+		lhs.add(30);
+		//lhs.add(30);
+		System.out.println(lhs);
+		
+		System.out.println("++++++++++++++++++TreeSet+++++++++++++++++");
+		LinkedHashSet<Integer> lhs = new LinkedHashSet<Integer>();
+		lhs.add(90);
+		lhs.add(10);
+		lhs.add(20);
+		lhs.add(30);
+		lhs.add(30);
+		System.out.println(lhs);
+	}
+}

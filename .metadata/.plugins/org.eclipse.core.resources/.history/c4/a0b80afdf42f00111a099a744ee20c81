@@ -1,0 +1,9 @@
+package com.anudip.collection;
+
+public class Employee1 {
+
+	int eid;
+	String ename;
+	String desg;
+	double sal;
+}

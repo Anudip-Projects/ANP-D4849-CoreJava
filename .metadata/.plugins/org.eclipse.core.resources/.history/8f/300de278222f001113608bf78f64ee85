@@ -1,0 +1,17 @@
+package com.anudip.collection;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		
+		
+		//limitation of array
+		int a[] = {1,2};
+		
+		//only same type of eleme we can store
+		//no predefined method to perform oper on array
+		//array has fixed size
+		
+		
+	}
+}

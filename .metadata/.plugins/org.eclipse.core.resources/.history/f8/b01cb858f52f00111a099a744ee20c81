@@ -1,0 +1,13 @@
+package com.anudip.collection;
+
+import java.util.ArrayList;
+
+public class Test02_empl {
+
+	public static void main(String[] args) {
+
+
+		ArrayList<Employee1> list = new ArrayList<Employee1>();
+
+	}
+}

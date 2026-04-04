@@ -1,0 +1,43 @@
+package com.anudip.collection;
+
+import java.util.Vector;
+
+public class Test02 {
+
+	
+	public static void main(String[] args) {
+		
+		//List inetrafce
+		//vector
+		//AL
+		//LL
+		//stack
+		
+		Vector<Integer> v = new Vector<Integer>();
+		v.add(10);
+		v.add(20);
+		v.add(30);	
+		v.add(10);
+		v.add(20);
+		v.add(30);
+		v.add(10);
+		v.add(20);
+		v.add(30);
+		v.add(10);
+		v.add(20);
+	
+		System.out.println(v);
+		
+		System.out.println("size of vector:" +v.size());
+		int capacity = v.capacity();
+		System.out.println(capacity);
+		boolean contains = v.contains(00);
+		System.out.println(contains);
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,32 @@
+package com.anudip.collection;
+
+import java.util.ArrayList;
+
+public class Test03_ArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		al.add(11);
+		al.add(12);
+		al.add(13);
+		al.add(14);
+		al.add(14);
+		al.add(null);
+		al.add(0);
+		System.out.println(al);		
+		System.out.println(al.size());
+		
+		boolean contains = al.contains(11);
+		al.remove(0);
+		
+		
+		//ArrayList<Integer> al = new ArrayList<Integer>();
+		
+	
+		//what is List
+		//
+		//synchrozied
+		
+	}
+}

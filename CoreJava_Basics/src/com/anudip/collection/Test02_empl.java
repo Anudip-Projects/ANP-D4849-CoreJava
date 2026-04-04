@@ -1,0 +1,43 @@
+package com.anudip.collection;
+
+import java.util.ArrayList;
+
+public class Test02_empl {
+
+	public static void main(String[] args) {
+
+
+		ArrayList<Employee1> list = new ArrayList<Employee1>();
+
+		Employee1 e1 = new Employee1(101, "Raja", "Java Developer", 10000);
+		Employee1 e2 = new Employee1(102, "Ramankat ", "Tester", 5000);
+		Employee1 e3 = new Employee1(103, "Rajani", "BA", 20000);
+		Employee1 e4 = new Employee1(104, "Ramesh", "CA", 50000);
+
+
+		list.add(e1);
+		list.add(e2);
+		list.add(e3);
+		list.add(e4);
+	
+		for(Employee1 e : list) {
+			System.out.println(e);
+		}
+		
+		for(int i = 0 ; i<=list.size()-1 ; i++){
+			
+			Employee1 obj = list.get(i);
+		
+			if(obj.getDesg().equalsIgnoreCase("java developer")) {
+				double updatedSalary = (obj.getSal() + ((obj.getSal() * 0.15)));				
+				obj.setSal(updatedSalary);
+			}
+				
+		}
+		
+		System.out.println("-------------");
+		for(Employee1 e : list) {
+			System.out.println(e);
+		}
+	}
+}

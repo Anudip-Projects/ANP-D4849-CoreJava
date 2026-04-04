@@ -1,0 +1,8 @@
+package com.anudip.collection;
+
+public class Test02_empl {
+
+	public static void main(String[] args) {
+		
+	}
+}

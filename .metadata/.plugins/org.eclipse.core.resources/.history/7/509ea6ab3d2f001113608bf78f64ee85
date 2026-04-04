@@ -1,0 +1,16 @@
+package com.anudip.collection.set;
+
+import java.util.HashSet;
+
+public class Test01 {
+
+	
+	public static void main(String[] args) {
+		
+		HashSet<Integer> s = new HashSet<Integer>();
+		s.add(10);
+		s.add(20);
+		s.add(30);
+		System.out.println(s);
+	}
+}

@@ -1,0 +1,7 @@
+package com.anudip.collection;
+
+public class pig extends Animal{
+
+	abstract void m1();
+
+}

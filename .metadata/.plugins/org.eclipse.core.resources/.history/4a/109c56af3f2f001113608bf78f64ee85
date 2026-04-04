@@ -1,0 +1,58 @@
+package com.anudip.collection.set;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
+
+public class Test01 {
+
+	//HashSet/linkedHash/TreeSet
+	public static void main(String[] args) {
+		//set does not follow the insertion order
+		//set allows only unique values
+		
+		HashSet<Integer> s = new HashSet<Integer>();
+		s.add(90);
+		s.add(10);
+		s.add(20);
+		s.add(30);
+		s.add(10);  //no
+		s.add(null);
+		s.add(null);
+		System.out.println(s);
+		
+		
+		System.out.println("+++++++++++++++++++LInkedHshSet+++++++++++++");
+		LinkedHashSet<Integer> lhs = new LinkedHashSet<Integer>();
+		lhs.add(90);
+		lhs.add(10);
+		lhs.add(20);
+		lhs.add(30);
+		//lhs.add(30);
+		System.out.println(lhs);
+		
+		System.out.println("++++++++++++++++++TreeSet+++++++++++++++++");
+		TreeSet<Integer> ts = new TreeSet<Integer>();
+		
+		ts.add(20);
+		ts.add(30);
+		ts.add(9);
+		ts.add(11);
+		ts.add(6);
+		ts.add(8);
+		ts.add(90);
+		System.out.println(ts);
+		
+		TreeSet<Object> ts1 = new TreeSet<Object>();
+		ts1.add(20);
+		ts1.add(30);
+		ts1.add(9);
+		//ts1.add(null);
+		ts1.add(3.4f);
+		System.out.println(ts1);
+		
+	
+		
+	
+	}
+}
