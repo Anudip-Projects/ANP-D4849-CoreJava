@@ -9,5 +9,10 @@
     <fullyQualifiedTypeName name="com.anudip.abstarction.VovoBus"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="com.anudip.collection.Animal"/>
+    <fullyQualifiedTypeName name="com.anudip.collection.Student"/>
     <fullyQualifiedTypeName name="com.anudip.collection.Employee"/>
+    <fullyQualifiedTypeName name="com.anudip.inheri.hasA.Employee"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
 </qualifiedTypeNameHistroy>
